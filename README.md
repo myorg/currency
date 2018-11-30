@@ -2,7 +2,9 @@
 
 ## Description
 
-A simple currency conversion app that demonstrates the use of Render Props in React.
+A simple currency conversion app that demonstrates the use of Render Props in React.  The code from this exercise comes from the following tutorial:
+
+https://www.robinwieruch.de/react-render-props-pattern/
 
 ## Available Scripts
 
