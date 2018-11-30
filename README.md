@@ -6,6 +6,9 @@ A simple currency conversion app that demonstrates the use of Render Props in Re
 
 https://www.robinwieruch.de/react-render-props-pattern/
 
+React Docs on RenderProps:
+https://reactjs.org/docs/render-props.html
+
 ## Available Scripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
