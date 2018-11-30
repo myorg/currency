@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-const Euro = ({ amount }) => <p>Euro: {amount * 0.86}</p>;
-const Pound = ({ amount }) => <p>Pound: {amount * 0.76}</p>;
-
 class Amount extends Component {
   constructor(props) {
     super(props);
@@ -10,6 +7,9 @@ class Amount extends Component {
     this.state = {
       amount: 0,
     };
+    this.amount = this.props.amount;
+    this.onIncrement = this.props.onIncrement;
+    this.onDecrement = this.props.onDecrement; 
   }
 
   onIncrement = () => {
@@ -31,9 +31,6 @@ class Amount extends Component {
         <button type="button" onClick={this.onDecrement}>
           -
         </button>
-
-        <Euro amount={this.state.amount} />
-        <Pound amount={this.state.amount} />
       </div>
     );
   }
